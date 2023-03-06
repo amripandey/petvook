@@ -1,7 +1,17 @@
-import styles from './page.module.css'
+import styles from '../src/app/page.module.css'
 
-export default function Section() {
+export default function SectionBar() {
   return (
-    <div>Petvook lvog</div>
+    <div>
+      <nav className={styles.navcontainer}>
+        <ul>
+          <li>Profile</li>
+          <li>Stories</li>
+          <li>Groups</li>
+          <li>Search</li>
+        </ul>
+
+      </nav>
+    </div>
   )
 }

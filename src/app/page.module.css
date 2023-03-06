@@ -1,0 +1,10 @@
+.navcontainer{
+    width: 100%;
+    display:flex;
+    flex-flow: row nowrap;
+    overflow: hidden;
+    background-color: #211E42;
+}
+.navcontainer > li{
+    display: inline;
+}
